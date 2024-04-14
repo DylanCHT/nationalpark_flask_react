@@ -1,0 +1,30 @@
+.Card {
+    display: inline-block;
+    margin: 0 10px;
+    user-select: none;
+    height: 200px;
+    width: 300px;
+    bottom: 0;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+    background: #1B2727;
+    color: white;
+    border-radius: 5%;
+    box-shadow: none;
+    font-family: serif;
+}
+
+.Selected {
+    height: 250px;
+    width: 400px;
+    background: #B2C5B2;
+    color: #1B2727;
+    border: 4px solid;
+    border-color: #D5DDDF;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+    /*transform: translateY(-30%);*/
+}
+
+.Button {
+    background-color: yellow;
+    /*border-radius: 10%;*/
+}

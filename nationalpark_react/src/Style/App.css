@@ -1,0 +1,24 @@
+.App {
+  /*text-align: center;*/
+  /*background: brown;*/
+  height: 100vh;
+}
+
+.BgImage {
+  background-image: url(https://images.unsplash.com/photo-1533918810748-d684b5610a20?q=80&w=2715&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%
+}
+
+.ScrollMenuContainer {
+  margin: 0px 40px 0px 60px;
+  padding: 10px 0px 0px 0px;
+  min-height: 270px;
+  max-width: 90%;
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  bottom: 3%;
+  /*align-content: flex-end;*/
+}

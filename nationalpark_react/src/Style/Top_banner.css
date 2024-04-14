@@ -1,0 +1,29 @@
+.Top_banner {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    margin: 140px 130px 50px 120px;
+    position: relative;
+}
+
+.Top_banner_title {
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: serif;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.Top_banner_sub {
+    color: orangered;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: serif;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.3em;
+}
