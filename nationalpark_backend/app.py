@@ -16,7 +16,7 @@ def index():
     data = json.loads(req.content)
 
     processed_data = process_data(data['data']) 
-    # html opeion: 
+    # html option: 'index.html' 
     # return render_template('index.html', data=processed_data)
 
     # Returning the processed data as JSON response
