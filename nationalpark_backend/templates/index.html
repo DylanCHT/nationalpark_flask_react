@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>National Park</title>
+    <style>
+        div.scrollmenu {
+            background-color: darkslategrey;
+            overflow: auto;
+            white-space: nowrap;
+        }
+
+        div.scrollmenu p {
+            display: inline-block;
+            color: #E6E2AF;
+            text-align: center;
+            padding: 34px;
+            text-decoration: none;
+            background-color: #A7A37E;
+        }
+
+        div.scrollmenu p:hover {
+          background-color: #046380;
+        }
+    </style>
+</head>
+<body>
+
+<h1>National Park</h1>
+
+<p>Park Category</p>
+
+<div class="scrollmenu">
+    {% for d in data  %}
+        <p>{{ d.category }} - {{d.park_list }}</p>
+    {% endfor %}
+</div>
+</body>
+</html>
